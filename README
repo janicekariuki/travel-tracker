@@ -1,0 +1,69 @@
+✈️ Travel Tracker
+The Travel Tracker is a simple web app where users can:
+
+Save their travel destinations.
+
+Add an image and a travel date for each trip.
+
+See a list of all trips saved.
+
+Remove trips if needed.
+
+Data is saved in localStorage, so trips stay even after refreshing!
+
+📋 Features
+📍 Add a destination name, an image URL, and a travel date.
+
+🧹 Validate to make sure all fields are filled (alerts if missing).
+
+📸 Display each trip with image, name, and date.
+
+🗑️ Remove trips individually.
+
+💾 Local storage support — trips stay saved even after browser refresh.
+
+🛠️ Technologies Used
+HTML5
+
+CSS3
+
+JavaScript (ES6) — vanilla (no libraries)
+
+🚀 How to Use
+Open the website.
+
+Fill out the destination name, image URL, and travel date.
+
+Click "Add Destination" to save it.
+
+Your trips will appear in a card layout.
+
+Click the "Remove" button under a destination to delete it.
+
+📂 Project Structure
+bash
+Copy code
+travel-tracker/
+│
+├── index.html     # Main HTML file
+├── index.css      # Styling for layout and cards
+├── script.js      # JavaScript for form handling, localStorage, and dynamic DOM updates
+└── README.md      # This file
+📸 Example Screenshot
+(You can insert a screenshot here later if you want!)
+
+Example: A grid of destination cards with images, names, dates, and remove buttons.
+
+⚡ Future Improvements (Optional)
+Add a popup confirmation before deleting.
+
+Allow editing a saved destination.
+
+Search/filter trips.
+
+Add a map to show destination locations.
+
+Use a database instead of localStorage for bigger projects.
+
+👨‍💻 Author
+Created by [Your Name Here] — learning, building, and growing! 🌱✨
