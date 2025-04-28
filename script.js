@@ -37,11 +37,11 @@ function removeTrip(index) {
 
 function displayDestination(data) {
     destinationList.innerHTML = ""; 
-    data.forEach(trip => {
+    data.forEach(trip, index => {
         let div = document.createElement("div");
         div.className = "destination-card";
         div.innerHTML = `
-        
+
             <img src="${trip.image}" alt="${trip.destination}" />
             <h3>${trip.destination}</h3>
             <p><strong>Travel Date:</strong> ${trip.travelDate}</p>
