@@ -41,10 +41,11 @@ function displayDestination(data) {
         let div = document.createElement("div");
         div.className = "destination-card";
         div.innerHTML = `
+        
             <img src="${trip.image}" alt="${trip.destination}" />
             <h3>${trip.destination}</h3>
             <p><strong>Travel Date:</strong> ${trip.travelDate}</p>
-            <button onclick="removeTrip(${data.indexOf(trip)})">Remove</button>
+            <button onclick="removeTrip(${index})">Remove</button>
         `;
         destinationList.appendChild(div);
     });
